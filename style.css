@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #003366;
+}
+
+h2 {
+    color: #00509E;
+    margin-top: 20px;
+}
+
+h3 {
+    color: #0073E6;
+    margin-top: 10px;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #00509E;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.todoCheckbox {
+    cursor: pointer;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #004A99;
+    color: white;
+}
+
+/* Limitar el ancho de la columna Notes y hacer que el texto se rompa en varias líneas */
+td:nth-child(3) {
+    max-width: 300px; /* Ajusta esto según lo necesites */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+/* Ajustar el tamaño de las demás columnas */
+td:nth-child(1), td:nth-child(2) {
+    width: 25%;
+}
+body {
+    max-width: 900px; /* Ajusta el ancho de la web */
+    margin: auto; /* Centra la web en la pantalla */
+    padding: 20px; /* Agrega un poco de espacio alrededor */
+    font-family: Arial, sans-serif;
+}
