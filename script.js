@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
             {
                 name: "Admin, IT, Basic equipment",
                 activities: [
-        { topic: "Computer", activity: "Identify and procure prior to first day", notes: "", done: false },
+        { topic: "Nigg", activity: "Identify and procure prior to first day", notes: "", done: false },
         { topic: "Computer operating system", activity: "IT load onto computer if applicable", notes: "", done: false },
         { topic: "Adobe Professional", activity: "IT load onto computer if applicable", notes: "", done: false },
         { topic: "Visio", activity: "IT load onto computer if applicable", notes: "", done: false },
